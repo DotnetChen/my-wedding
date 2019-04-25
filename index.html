@@ -57,7 +57,19 @@
 	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
-		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">首頁</a></li>
+						<li><a href="contact.html">宴客資訊</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</nav>
 
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
@@ -144,7 +156,6 @@
 										<br/>
 										【公車】615、618、513、636、637、638、99 etc.
 										<br/>
-
 									</p>
 								</div>
 							</div>
@@ -318,9 +329,15 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
+
+	<script>
+		$('.fh5co-nav').load('menu.html');
+		$('#fh5co-footer').load('footer.html');
+	</script>
+
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
@@ -356,12 +373,6 @@
 			minutes: d.getMinutes(),
 			seconds: d.getSeconds()
 		});
-
-		$(function(){
-			$('.fh5co-nav').load('menu.html');
-			$('#fh5co-footer').load('footer.html');
-		})
-
 	</script>
 
 	</body>
