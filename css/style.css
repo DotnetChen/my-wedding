@@ -978,12 +978,12 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: rgba(241, 78, 149, 0.8);
+  color: rgba(255, 207, 230, 0.87);
   /* amounts and words */
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 39px;
   /* amounts */
 }
 
