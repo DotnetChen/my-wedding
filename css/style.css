@@ -1844,4 +1844,9 @@ form label {
   opacity: 0;
 }
 
+@media screen and (max-width: 320px) {
+  .simply-countdown > .simply-section {
+    width:60px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
