@@ -220,12 +220,12 @@
 		//offcanvasMenu();
 		//burgerMenu();
 		contentWayPoint();
-		dropdown();
+		//dropdown();
 		//testimonialCarousel();
 		goToTop();
 		loaderPage();
-		counter();
-		counterWayPoint();
+		//counter();
+		//counterWayPoint();
 	});
 
 
